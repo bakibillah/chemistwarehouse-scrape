@@ -1,8 +1,8 @@
 import pymysql
 
 connection = pymysql.connect(host='localhost',
-                             user='mdbakibillah',
-                             password='TalhaZubayer789*',
+                             user='root',
+                             password='************',
                              database='cwh_scrape',
                              charset='utf8mb4',
                              autocommit=True,

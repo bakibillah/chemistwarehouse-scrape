@@ -17,8 +17,8 @@ from solve_captcha import solve_captcha
 # 39924,3|71499,2 # 966557887410
 
 connection = pymysql.connect(host='localhost',
-                             user='mdbakibillah',
-                             password='TalhaZubayer789*',
+                             user='root',
+                             password='*********',
                              database='cwh_scrape',
                              charset='utf8mb4',
                              autocommit=True,

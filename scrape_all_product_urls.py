@@ -18,7 +18,7 @@ from solve_captcha import solve_captcha
 
 connection = pymysql.connect(host='localhost',
                              user='root',
-                             password='as598249',
+                             password='**********',
                              database='cwh_scrape',
                              charset='utf8mb4',
                              autocommit=True,
@@ -45,7 +45,7 @@ if __name__ == '__main__':
     #     shutil.rmtree(profile, ignore_errors=True)
     #     time.sleep(.5)
     options.add_argument("--window-size=1920,1080")
-    # options.add_argument("--headless=chrome")
+
     driver = uc.Chrome(options=options, user_data_dir=profile)
     try:
         driver.get('https://www.chemistwarehouse.com.au/')
